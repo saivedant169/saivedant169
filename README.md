@@ -92,33 +92,33 @@ Fixed streaming retry bug — zero rate-limit protection in <code>dspy.streamify
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/google/python-fire/pull/654">
-<img src="https://www.gstatic.com/devrel-devsite/prod/v0e0f589edd85502a40d78d7d0825db8ea5ef3b99ab4070381ee86977c9168730/developers/images/favicon-new.png" width="48" height="48" alt="Google"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="48" height="48" alt="Google"/>
 <br><strong>python-fire</strong>
 <br><sub>28k stars</sub>
 </a>
 </td>
 <td>
-Improved CLI error handling — catch TypeError from missing arguments and show user-friendly messages
+Improved CLI error handling -- catches TypeError from missing arguments, shows user-friendly messages
 </td>
 </tr>
 
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/traceloop/openllmetry/pull/3807">
-<img src="https://raw.githubusercontent.com/traceloop/openllmetry/main/img/logo-light.svg" width="48" height="48" alt="OpenLLMetry"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opentelemetry/opentelemetry-original.svg" width="48" height="48" alt="OpenLLMetry"/>
 <br><strong>OpenLLMetry</strong>
 <br><sub>7k stars</sub>
 </a>
 </td>
 <td>
-Fixed OTel context corruption in LangChain instrumentation — orphaned <code>context_api.attach()</code> calls
+Fixed OTel context corruption in LangChain instrumentation -- orphaned <code>context_api.attach()</code> calls
 </td>
 </tr>
 
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/bentoml/BentoML/pull/5570">
-<img src="https://raw.githubusercontent.com/bentoml/BentoML/main/docs/source/_static/img/bentoml-icon.png" width="48" height="48" alt="BentoML"/>
+<img src="https://img.shields.io/badge/🍱-BentoML-black?style=flat" width="48" height="48" alt="BentoML"/>
 <br><strong>BentoML</strong>
 <br><sub>7k stars</sub>
 </a>
@@ -131,7 +131,7 @@ Fixed Prometheus histogram sample ordering -- multiprocess metrics violated expo
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/theOehrly/Fast-F1/pull/874">
-<img src="https://raw.githubusercontent.com/theOehrly/Fast-F1/master/docs/_static/fastf1_logo.svg" width="48" height="48" alt="Fast-F1"/>
+<img src="https://img.shields.io/badge/🏎️-Fast--F1-red?style=flat" width="48" height="48" alt="Fast-F1"/>
 <br><strong>Fast-F1</strong>
 <br><sub>3k stars</sub>
 </a>
