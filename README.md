@@ -16,7 +16,7 @@
 
 ## About Me
 
-I'm **Saivedant Hava**, an AI/ML engineer who contributes to the open-source tools that power modern AI. I focus on **LLM frameworks, ML libraries, and AI infrastructure** — fixing real bugs, shipping features, and improving code quality in production codebases used by millions.
+I'm **Saivedant Hava**, an AI/ML engineer who contributes to the open-source tools that power modern AI. I work on LLM frameworks, ML libraries, and AI infrastructure. Fixing real bugs, shipping features, improving code quality in production codebases.
 
 <br>
 
@@ -62,12 +62,13 @@ Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flas
 </a>
 </td>
 <td>
-4 merged PRs — type safety improvements across samplers and importance evaluators
+5 merged PRs -- type safety improvements across samplers, pruners, and importance evaluators
 <br>
 <a href="https://github.com/optuna/optuna/pull/6514">#6514</a> ·
 <a href="https://github.com/optuna/optuna/pull/6515">#6515</a> ·
 <a href="https://github.com/optuna/optuna/pull/6516">#6516</a> ·
-<a href="https://github.com/optuna/optuna/pull/6517">#6517</a>
+<a href="https://github.com/optuna/optuna/pull/6517">#6517</a> ·
+<a href="https://github.com/optuna/optuna/pull/6518">#6518</a>
 <img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
@@ -123,7 +124,23 @@ Fixed OTel context corruption in LangChain instrumentation — orphaned <code>co
 </a>
 </td>
 <td>
-Fixed Prometheus histogram sample ordering — multiprocess metrics violated exposition format spec
+Fixed Prometheus histogram sample ordering -- multiprocess metrics violated exposition format spec
+</td>
+</tr>
+
+<tr>
+<td align="center" width="140">
+<a href="https://github.com/theOehrly/Fast-F1/pull/874">
+<img src="https://raw.githubusercontent.com/theOehrly/Fast-F1/master/docs/_static/fastf1_logo.svg" width="48" height="48" alt="Fast-F1"/>
+<br><strong>Fast-F1</strong>
+<br><sub>3k stars</sub>
+</a>
+</td>
+<td>
+Enabled ruff Bugbear rules, caught a real bug in lambda loop variable capture, added strict zip
+<br>
+<a href="https://github.com/theOehrly/Fast-F1/pull/874">#874</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
 
@@ -136,9 +153,8 @@ Fixed Prometheus histogram sample ordering — multiprocess metrics violated exp
 | Repo | Contribution | PR |
 |------|-------------|-----|
 | **Arize Phoenix** (15k stars) | CLI `session-delete` command | [#12155](https://github.com/Arize-ai/phoenix/pull/12155) |
-| **Fast-F1** (3k stars) | Enabled ruff Bugbear rules, found real bug in lambda loop variable capture | [#874](https://github.com/theOehrly/Fast-F1/pull/874) |
 | **OpenLIT** (2.3k stars) | Fixed O(n^2) prompt explosion in `format_content()` | [#1060](https://github.com/openlit/openlit/pull/1060) |
-| **CScout** (1k stars) | Converted 8,065 lines of XML docs to Markdown with custom converter | [#87](https://github.com/dspinellis/cscout/pull/87) |
+| **CScout** (1k stars) | Converted 8,065 lines of XML docs to Markdown + HTML build pipeline | [#87](https://github.com/dspinellis/cscout/pull/87) |
 
 </details>
 
