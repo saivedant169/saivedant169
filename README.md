@@ -186,7 +186,3 @@ Fixed Prometheus histogram sample ordering — multiprocess metrics violated exp
 <br>
 
 ---
-
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=saivedant169&style=for-the-badge&color=58A6FF" alt="profile views"/>
-</div>
