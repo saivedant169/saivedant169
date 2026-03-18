@@ -62,7 +62,7 @@ Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flas
 </a>
 </td>
 <td>
-8 merged PRs -- type safety improvements across samplers, pruners, and importance evaluators
+9 merged PRs -- type safety improvements across samplers, pruners, and importance evaluators
 <br>
 <a href="https://github.com/optuna/optuna/pull/6514">#6514</a> ·
 <a href="https://github.com/optuna/optuna/pull/6515">#6515</a> ·
@@ -155,8 +155,8 @@ Enabled ruff Bugbear rules, caught a real bug in lambda loop variable capture, a
 
 | Repo | Contribution | PR |
 |------|-------------|-----|
+| **OpenLIT** (2.3k stars) | Fixed O(n^2) prompt explosion in `format_content()` | [#1060](https://github.com/openlit/openlit/pull/1060) ![](https://img.shields.io/badge/MERGED-8957e5?style=flat-square) |
 | **Arize Phoenix** (15k stars) | CLI `session-delete` command | [#12155](https://github.com/Arize-ai/phoenix/pull/12155) |
-| **OpenLIT** (2.3k stars) | Fixed O(n^2) prompt explosion in `format_content()` | [#1060](https://github.com/openlit/openlit/pull/1060) |
 | **CScout** (1k stars) | Converted 8,065 lines of XML docs to Markdown + HTML build pipeline | [#87](https://github.com/dspinellis/cscout/pull/87) |
 
 </details>
