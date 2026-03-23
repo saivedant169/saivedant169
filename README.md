@@ -62,7 +62,7 @@ Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flas
 </a>
 </td>
 <td>
-10 merged PRs -- type safety improvements across samplers, pruners, and importance evaluators
+11 merged PRs -- type safety improvements across samplers, pruners, and importance evaluators
 <br>
 <a href="https://github.com/optuna/optuna/pull/6514">#6514</a> ·
 <a href="https://github.com/optuna/optuna/pull/6515">#6515</a> ·
@@ -72,7 +72,8 @@ Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flas
 <a href="https://github.com/optuna/optuna/pull/6520">#6520</a> ·
 <a href="https://github.com/optuna/optuna/pull/6521">#6521</a> ·
 <a href="https://github.com/optuna/optuna/pull/6523">#6523</a> ·
-<a href="https://github.com/optuna/optuna/pull/6524">#6524</a>
+<a href="https://github.com/optuna/optuna/pull/6524">#6524</a> ·
+<a href="https://github.com/optuna/optuna/pull/6526">#6526</a>
 <img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
