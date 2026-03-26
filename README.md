@@ -212,7 +212,7 @@ Enabled ruff Bugbear rules, caught a real bug in lambda loop variable capture, a
 
 <div align="center">
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=saivedant169&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=86400" height="165" alt="stats"/>
+<img src="https://readme-stats-theta-bay.vercel.app/api?username=saivedant169&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="stats"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=saivedant169&theme=tokyonight&hide_border=true" height="165" alt="streak"/>
 
 <br>
