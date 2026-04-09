@@ -62,21 +62,35 @@ Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flas
 </a>
 </td>
 <td>
-14 merged PRs -- type safety improvements across samplers, pruners, and importance evaluators
+27 merged PRs, type safety improvements across samplers, pruners, importance evaluators, and the full visualization module (both plotly and matplotlib backends)
 <br>
-<a href="https://github.com/optuna/optuna/pull/6514">#6514</a> ·
-<a href="https://github.com/optuna/optuna/pull/6515">#6515</a> ·
-<a href="https://github.com/optuna/optuna/pull/6516">#6516</a> ·
-<a href="https://github.com/optuna/optuna/pull/6517">#6517</a> ·
-<a href="https://github.com/optuna/optuna/pull/6518">#6518</a> ·
-<a href="https://github.com/optuna/optuna/pull/6520">#6520</a> ·
-<a href="https://github.com/optuna/optuna/pull/6521">#6521</a> ·
-<a href="https://github.com/optuna/optuna/pull/6523">#6523</a> ·
-<a href="https://github.com/optuna/optuna/pull/6524">#6524</a> ·
-<a href="https://github.com/optuna/optuna/pull/6526">#6526</a> ·
-<a href="https://github.com/optuna/optuna/pull/6561">#6561</a> ·
+<a href="https://github.com/optuna/optuna/pull/6594">#6594</a> ·
+<a href="https://github.com/optuna/optuna/pull/6593">#6593</a> ·
+<a href="https://github.com/optuna/optuna/pull/6592">#6592</a> ·
+<a href="https://github.com/optuna/optuna/pull/6591">#6591</a> ·
+<a href="https://github.com/optuna/optuna/pull/6584">#6584</a> ·
+<a href="https://github.com/optuna/optuna/pull/6581">#6581</a> ·
+<a href="https://github.com/optuna/optuna/pull/6580">#6580</a> ·
+<a href="https://github.com/optuna/optuna/pull/6579">#6579</a> ·
+<a href="https://github.com/optuna/optuna/pull/6578">#6578</a> ·
+<a href="https://github.com/optuna/optuna/pull/6577">#6577</a> ·
+<a href="https://github.com/optuna/optuna/pull/6576">#6576</a> ·
+<a href="https://github.com/optuna/optuna/pull/6575">#6575</a> ·
+<a href="https://github.com/optuna/optuna/pull/6572">#6572</a> ·
+<a href="https://github.com/optuna/optuna/pull/6565">#6565</a> ·
+<a href="https://github.com/optuna/optuna/pull/6563">#6563</a> ·
 <a href="https://github.com/optuna/optuna/pull/6562">#6562</a> ·
-<a href="https://github.com/optuna/optuna/pull/6563">#6563</a>
+<a href="https://github.com/optuna/optuna/pull/6561">#6561</a> ·
+<a href="https://github.com/optuna/optuna/pull/6526">#6526</a> ·
+<a href="https://github.com/optuna/optuna/pull/6524">#6524</a> ·
+<a href="https://github.com/optuna/optuna/pull/6523">#6523</a> ·
+<a href="https://github.com/optuna/optuna/pull/6521">#6521</a> ·
+<a href="https://github.com/optuna/optuna/pull/6520">#6520</a> ·
+<a href="https://github.com/optuna/optuna/pull/6518">#6518</a> ·
+<a href="https://github.com/optuna/optuna/pull/6517">#6517</a> ·
+<a href="https://github.com/optuna/optuna/pull/6516">#6516</a> ·
+<a href="https://github.com/optuna/optuna/pull/6515">#6515</a> ·
+<a href="https://github.com/optuna/optuna/pull/6514">#6514</a>
 <img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
@@ -132,7 +146,10 @@ Fixed OTel context corruption in LangChain instrumentation -- orphaned <code>con
 </a>
 </td>
 <td>
-Fixed Prometheus histogram sample ordering -- multiprocess metrics violated exposition format spec
+Fixed Prometheus histogram sample ordering. Multiprocess metrics violated the exposition format spec, breaking parsers like fluent-bit's prometheus_scrape
+<br>
+<a href="https://github.com/bentoml/BentoML/pull/5570">#5570</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
 
@@ -145,9 +162,10 @@ Fixed Prometheus histogram sample ordering -- multiprocess metrics violated expo
 </a>
 </td>
 <td>
-Enabled ruff Bugbear rules, caught a real bug in lambda loop variable capture, added strict zip
+Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable capture bug), plus CI hardening to fail on ruff warnings
 <br>
-<a href="https://github.com/theOehrly/Fast-F1/pull/874">#874</a>
+<a href="https://github.com/theOehrly/Fast-F1/pull/874">#874</a> ·
+<a href="https://github.com/theOehrly/Fast-F1/pull/894">#894</a>
 <img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
@@ -160,7 +178,7 @@ Enabled ruff Bugbear rules, caught a real bug in lambda loop variable capture, a
 
 | Repo | Contribution | PR |
 |------|-------------|-----|
-| **OpenLIT** (2.3k stars) | Fixed O(n^2) prompt explosion in `format_content()` | [#1060](https://github.com/openlit/openlit/pull/1060) ![](https://img.shields.io/badge/MERGED-8957e5?style=flat-square) |
+| **OpenLIT** (2.3k stars) | Fixed O(n^2) prompt explosion in `format_content()` and removed hardcoded `temperature=0.0` from eval LLM calls (broke gpt-5 models) | [#1060](https://github.com/openlit/openlit/pull/1060) · [#1071](https://github.com/openlit/openlit/pull/1071) ![](https://img.shields.io/badge/MERGED-8957e5?style=flat-square) |
 | **Arize Phoenix** (15k stars) | CLI `session-delete` command | [#12155](https://github.com/Arize-ai/phoenix/pull/12155) |
 | **CScout** (1k stars) | Converted 8,065 lines of XML docs to Markdown + HTML build pipeline | [#87](https://github.com/dspinellis/cscout/pull/87) |
 
