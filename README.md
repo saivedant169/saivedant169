@@ -97,17 +97,18 @@ Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flas
 
 <tr>
 <td align="center" width="140">
-<a href="https://github.com/stanfordnlp/dspy/pull/9460">
-<img src="https://raw.githubusercontent.com/stanfordnlp/dspy/main/docs/docs/static/img/dspy_logo.png" width="48" height="48" alt="DSPy"/>
-<br><strong>DSPy</strong>
-<br><sub>25k stars</sub>
+<a href="https://github.com/openlit/openlit/pull/1060">
+<img src="https://img.shields.io/badge/🔎-OpenLIT-blue?style=flat" width="48" height="48" alt="OpenLIT"/>
+<br><strong>OpenLIT</strong>
+<br><sub>2.3k stars</sub>
 </a>
 </td>
 <td>
-Fixed streaming retry bug — zero rate-limit protection in <code>dspy.streamify()</code> + API docstrings
+Fixed O(n^2) prompt explosion in <code>format_content()</code> and removed hardcoded <code>temperature=0.0</code> from eval LLM calls (broke gpt-5 models)
 <br>
-<a href="https://github.com/stanfordnlp/dspy/pull/9460">#9460</a> ·
-<a href="https://github.com/stanfordnlp/dspy/pull/9458">#9458</a>
+<a href="https://github.com/openlit/openlit/pull/1060">#1060</a> ·
+<a href="https://github.com/openlit/openlit/pull/1071">#1071</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
 
@@ -178,7 +179,7 @@ Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable ca
 
 | Repo | Contribution | PR |
 |------|-------------|-----|
-| **OpenLIT** (2.3k stars) | Fixed O(n^2) prompt explosion in `format_content()` and removed hardcoded `temperature=0.0` from eval LLM calls (broke gpt-5 models) | [#1060](https://github.com/openlit/openlit/pull/1060) · [#1071](https://github.com/openlit/openlit/pull/1071) ![](https://img.shields.io/badge/MERGED-8957e5?style=flat-square) |
+| **DSPy** (25k stars) | Fixed streaming retry bug — zero rate-limit protection in `dspy.streamify()` + API docstrings | [#9460](https://github.com/stanfordnlp/dspy/pull/9460) · [#9458](https://github.com/stanfordnlp/dspy/pull/9458) |
 | **Arize Phoenix** (15k stars) | CLI `session-delete` command | [#12155](https://github.com/Arize-ai/phoenix/pull/12155) |
 | **CScout** (1k stars) | Converted 8,065 lines of XML docs to Markdown + HTML build pipeline | [#87](https://github.com/dspinellis/cscout/pull/87) |
 
