@@ -163,10 +163,11 @@ Fixed Prometheus histogram sample ordering. Multiprocess metrics violated the ex
 </a>
 </td>
 <td>
-Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable capture bug), plus CI hardening to fail on ruff warnings
+Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable capture bug), CI hardening to fail on ruff warnings, plus the ARG rule for unused function arguments
 <br>
 <a href="https://github.com/theOehrly/Fast-F1/pull/874">#874</a> ·
-<a href="https://github.com/theOehrly/Fast-F1/pull/894">#894</a>
+<a href="https://github.com/theOehrly/Fast-F1/pull/894">#894</a> ·
+<a href="https://github.com/theOehrly/Fast-F1/pull/898">#898</a>
 <img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
