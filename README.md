@@ -56,7 +56,7 @@ Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flas
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/optuna/optuna">
-<img src="https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png" width="48" height="48" alt="Optuna"/>
+<img src="https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png" height="48" alt="Optuna"/>
 <br><strong>Optuna</strong>
 <br><sub>12k stars</sub>
 </a>
@@ -141,7 +141,7 @@ Fixed OTel context corruption in LangChain instrumentation -- orphaned <code>con
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/bentoml/BentoML/pull/5570">
-<img src="https://img.shields.io/badge/🍱-BentoML-black?style=flat" width="48" height="48" alt="BentoML"/>
+<img src="https://raw.githubusercontent.com/bentoml/BentoML/main/docs/source/_static/img/bentoml-logo-white.png" height="48" alt="BentoML"/>
 <br><strong>BentoML</strong>
 <br><sub>7k stars</sub>
 </a>
@@ -157,7 +157,7 @@ Fixed Prometheus histogram sample ordering. Multiprocess metrics violated the ex
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/theOehrly/Fast-F1/pull/874">
-<img src="https://img.shields.io/badge/🏎️-Fast--F1-red?style=flat" width="48" height="48" alt="Fast-F1"/>
+<img src="https://raw.githubusercontent.com/theOehrly/Fast-F1/main/docs/_static/logo.png" height="48" alt="Fast-F1"/>
 <br><strong>Fast-F1</strong>
 <br><sub>3k stars</sub>
 </a>
