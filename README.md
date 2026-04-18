@@ -98,7 +98,7 @@ Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flas
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/openlit/openlit/pull/1060">
-<img src="https://img.shields.io/badge/🔎-OpenLIT-blue?style=flat" width="48" height="48" alt="OpenLIT"/>
+<img src="https://raw.githubusercontent.com/openlit/openlit/main/src/client/public/images/logo.png" height="48" alt="OpenLIT"/>
 <br><strong>OpenLIT</strong>
 <br><sub>2.3k stars</sub>
 </a>
