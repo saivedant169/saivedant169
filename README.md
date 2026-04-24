@@ -235,12 +235,12 @@ Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable ca
 
 <div align="center">
 
-<img src="https://readme-stats-theta-bay.vercel.app/api?username=saivedant169&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=saivedant169&theme=tokyonight&hide_border=true" height="165" alt="streak"/>
+<img src="https://readme-stats-theta-bay.vercel.app/api?username=saivedant169&show_icons=true&theme=great-gatsby&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=saivedant169&theme=great-gatsby&hide_border=true" height="165" alt="streak"/>
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=saivedant169&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="activity"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=saivedant169&theme=rogue&hide_border=true&area=true" width="95%" alt="activity"/>
 
 </div>
 
