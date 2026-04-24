@@ -127,14 +127,17 @@ Improved CLI error handling -- catches TypeError from missing arguments, shows u
 
 <tr>
 <td align="center" width="140">
-<a href="https://github.com/traceloop/openllmetry/pull/3807">
+<a href="https://github.com/traceloop/openllmetry/pull/3958">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opentelemetry/opentelemetry-original.svg" width="48" height="48" alt="OpenLLMetry"/>
 <br><strong>OpenLLMetry</strong>
 <br><sub>7k stars</sub>
 </a>
 </td>
 <td>
-Fixed OTel context corruption in LangChain instrumentation -- orphaned <code>context_api.attach()</code> calls
+Fixed OTel context leak in LangChain instrumentation — detach existing <code>SpanHolder</code> token before overwrite in <code>_create_llm_span</code>, preventing orphaned contexts on retries
+<br>
+<a href="https://github.com/traceloop/openllmetry/pull/3958">#3958</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
 
