@@ -240,7 +240,7 @@ Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable ca
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=saivedant169&theme=rogue&hide_border=true&area=true" width="95%" alt="activity"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=saivedant169&bg_color=000000&title_color=ffa726&color=ffd95b&line=ffa726&point=ffb74d&area_color=ffa726&hide_border=true&area=true" width="95%" alt="activity"/>
 
 </div>
 
