@@ -1,0 +1,124 @@
+<svg width="1100" height="380" viewBox="0 0 1100 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Saivedant Hava profile banner</title>
+  <desc id="desc">A dark AI infrastructure themed banner for Saivedant Hava, highlighting open source contributions to LLM and ML infrastructure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.45" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 76) rotate(137) scale(430 260)">
+      <stop stop-color="#38BDF8" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowAmber" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(208 327) rotate(-24) scale(360 210)">
+      <stop stop-color="#F59E0B" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="90" y1="92" x2="656" y2="172" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.47" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#FACC15"/>
+    </linearGradient>
+    <linearGradient id="strokeHot" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" stroke="#94A3B8" stroke-opacity="0.085" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.36"/>
+    </filter>
+    <style>
+      .mono { font-family: "SFMono-Regular", "Cascadia Code", "Liberation Mono", Consolas, monospace; }
+      .sans { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .fine { fill: #94A3B8; font-size: 15px; letter-spacing: 1.4px; }
+      .chip { fill: #E2E8F0; font-size: 15px; font-weight: 700; }
+      .repo { fill: #E5E7EB; font-size: 18px; font-weight: 800; }
+      .repoSub { fill: #94A3B8; font-size: 12px; letter-spacing: 0.7px; }
+      .pulse { animation: pulse 3.8s ease-in-out infinite; transform-origin: center; }
+      .flow { stroke-dasharray: 10 14; animation: flow 8s linear infinite; }
+      .blink { animation: blink 1.2s steps(2) infinite; }
+      @keyframes pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
+      @keyframes flow { to { stroke-dashoffset: -96; } }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1100" height="380" rx="28" fill="url(#bg)"/>
+  <rect width="1100" height="380" rx="28" fill="url(#grid)"/>
+  <rect width="1100" height="380" rx="28" fill="url(#glowBlue)"/>
+  <rect width="1100" height="380" rx="28" fill="url(#glowAmber)"/>
+
+  <path d="M-12 300 C156 226 256 338 400 264 C518 204 553 122 690 139 C820 155 869 266 1108 182" class="flow" stroke="url(#strokeHot)" stroke-width="2.2" stroke-opacity="0.8"/>
+  <path d="M58 95 C210 52 303 82 417 132 C542 186 640 196 774 116 C885 50 982 62 1098 105" stroke="#22D3EE" stroke-opacity="0.18" stroke-width="1.4"/>
+
+  <g transform="translate(78 64)">
+    <text class="mono fine" x="0" y="0">OPEN SOURCE AI INFRASTRUCTURE</text>
+    <text class="sans" x="0" y="79" fill="url(#titleGrad)" font-size="68" font-weight="900" letter-spacing="0">Saivedant Hava</text>
+    <text class="mono" x="2" y="121" fill="#CBD5E1" font-size="20">AI/ML engineer shipping fixes into LLM infrastructure</text>
+    <rect class="blink" x="676" y="103" width="10" height="29" rx="3" fill="#FACC15"/>
+
+    <g transform="translate(0 165)">
+      <rect width="168" height="42" rx="13" fill="#0F172A" fill-opacity="0.84" stroke="#38BDF8" stroke-opacity="0.36"/>
+      <text class="mono chip" x="20" y="27">40+ merged PRs</text>
+      <rect x="186" width="158" height="42" rx="13" fill="#0F172A" fill-opacity="0.84" stroke="#22C55E" stroke-opacity="0.36"/>
+      <text class="mono chip" x="205" y="27">10+ OSS repos</text>
+      <rect x="362" width="170" height="42" rx="13" fill="#0F172A" fill-opacity="0.84" stroke="#F59E0B" stroke-opacity="0.42"/>
+      <text class="mono chip" x="382" y="27">AI infra focus</text>
+    </g>
+
+    <g transform="translate(0 236)">
+      <text class="mono" x="0" y="0" fill="#38BDF8" font-size="15">PyTorch</text>
+      <text class="mono" x="88" y="0" fill="#64748B" font-size="15">/</text>
+      <text class="mono" x="111" y="0" fill="#FACC15" font-size="15">Transformers</text>
+      <text class="mono" x="235" y="0" fill="#64748B" font-size="15">/</text>
+      <text class="mono" x="258" y="0" fill="#34D399" font-size="15">Optuna</text>
+      <text class="mono" x="328" y="0" fill="#64748B" font-size="15">/</text>
+      <text class="mono" x="351" y="0" fill="#A78BFA" font-size="15">OpenTelemetry</text>
+      <text class="mono" x="491" y="0" fill="#64748B" font-size="15">/</text>
+      <text class="mono" x="514" y="0" fill="#FB7185" font-size="15">BentoML</text>
+    </g>
+  </g>
+
+  <g transform="translate(740 72)">
+    <rect width="286" height="235" rx="24" fill="#020617" fill-opacity="0.72" stroke="#334155" stroke-opacity="0.9"/>
+    <rect x="20" y="22" width="92" height="24" rx="8" fill="#172554"/>
+    <text class="mono" x="34" y="39" fill="#93C5FD" font-size="12" font-weight="800">LIVE SIGNAL</text>
+    <circle class="pulse" cx="248" cy="34" r="8" fill="#22C55E" filter="url(#softGlow)"/>
+
+    <g transform="translate(28 72)">
+      <circle cx="12" cy="10" r="5" fill="#38BDF8"/>
+      <text class="sans repo" x="34" y="16">LLM internals</text>
+      <text class="mono repoSub" x="34" y="36">SwiGLU, position_ids, model APIs</text>
+    </g>
+    <g transform="translate(28 126)">
+      <circle cx="12" cy="10" r="5" fill="#FACC15"/>
+      <text class="sans repo" x="34" y="16">Runtime fixes</text>
+      <text class="mono repoSub" x="34" y="36">O(n^2), context leaks, parsers</text>
+    </g>
+    <g transform="translate(28 180)">
+      <circle cx="12" cy="10" r="5" fill="#34D399"/>
+      <text class="sans repo" x="34" y="16">Quality systems</text>
+      <text class="mono repoSub" x="34" y="36">types, CI, linting, CLI behavior</text>
+    </g>
+  </g>
+
+  <g opacity="0.95">
+    <circle class="pulse" cx="642" cy="254" r="4" fill="#38BDF8"/>
+    <circle class="pulse" cx="694" cy="197" r="5" fill="#FACC15"/>
+    <circle class="pulse" cx="1016" cy="314" r="4" fill="#34D399"/>
+    <circle class="pulse" cx="982" cy="92" r="3.5" fill="#FB7185"/>
+  </g>
+
+  <rect x="1" y="1" width="1098" height="378" rx="27" stroke="url(#strokeHot)" stroke-opacity="0.48" stroke-width="2"/>
+</svg>
