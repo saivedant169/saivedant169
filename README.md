@@ -27,38 +27,10 @@ Active contributor across top-tier AI/ML repositories with **merged PRs in produ
 <table>
 <tr>
 <td align="center" width="140">
-<a href="https://github.com/pytorch/pytorch/pull/177455">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="48" height="48" alt="PyTorch"/>
-<br><strong>PyTorch</strong>
-<br><sub>98k stars</sub>
-</a>
-</td>
-<td>
-<code>nn.SwiGLU</code> activation function — used in LLaMA, Mistral, Gemma, and every modern LLM
-</td>
-</tr>
-
-<tr>
-<td align="center" width="140">
-<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="48" height="48" alt="HuggingFace"/>
-<br><strong>Transformers</strong>
-<br><sub>158k stars</sub>
-</td>
-<td>
-Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flash attention compatibility
-<br>
-<a href="https://github.com/huggingface/transformers/pull/44705">#44705</a> ·
-<a href="https://github.com/huggingface/transformers/pull/44706">#44706</a> ·
-<a href="https://github.com/huggingface/transformers/pull/44707">#44707</a>
-</td>
-</tr>
-
-<tr>
-<td align="center" width="140">
 <a href="https://github.com/optuna/optuna">
 <img src="https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png" height="48" alt="Optuna"/>
 <br><strong>Optuna</strong>
-<br><sub>12k stars</sub>
+<br><sub>14k stars</sub>
 </a>
 </td>
 <td>
@@ -100,7 +72,7 @@ Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flas
 <a href="https://github.com/openlit/openlit/pull/1060">
 <img src="https://raw.githubusercontent.com/openlit/openlit/main/src/client/public/images/logo.png" height="48" alt="OpenLIT"/>
 <br><strong>OpenLIT</strong>
-<br><sub>2.3k stars</sub>
+<br><sub>2.5k stars</sub>
 </a>
 </td>
 <td>
@@ -109,19 +81,6 @@ Fixed O(n^2) prompt explosion in <code>format_content()</code> and removed hardc
 <a href="https://github.com/openlit/openlit/pull/1060">#1060</a> ·
 <a href="https://github.com/openlit/openlit/pull/1071">#1071</a>
 <img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
-</td>
-</tr>
-
-<tr>
-<td align="center" width="140">
-<a href="https://github.com/google/python-fire/pull/654">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="48" height="48" alt="Google"/>
-<br><strong>python-fire</strong>
-<br><sub>28k stars</sub>
-</a>
-</td>
-<td>
-Improved CLI error handling -- catches TypeError from missing arguments, shows user-friendly messages
 </td>
 </tr>
 
@@ -146,7 +105,7 @@ Fixed OTel context leak in LangChain instrumentation — detach existing <code>S
 <a href="https://github.com/bentoml/BentoML/pull/5570">
 <img src="https://raw.githubusercontent.com/bentoml/BentoML/main/docs/source/_static/img/bentoml-logo-white.png" height="48" alt="BentoML"/>
 <br><strong>BentoML</strong>
-<br><sub>7k stars</sub>
+<br><sub>8.7k stars</sub>
 </a>
 </td>
 <td>
@@ -162,7 +121,7 @@ Fixed Prometheus histogram sample ordering. Multiprocess metrics violated the ex
 <a href="https://github.com/theOehrly/Fast-F1/pull/874">
 <img src="https://raw.githubusercontent.com/theOehrly/Fast-F1/main/docs/_static/logo.png" height="48" alt="Fast-F1"/>
 <br><strong>Fast-F1</strong>
-<br><sub>3k stars</sub>
+<br><sub>5.1k stars</sub>
 </a>
 </td>
 <td>
@@ -175,19 +134,38 @@ Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable ca
 </td>
 </tr>
 
-</table>
-
-<details>
-<summary><strong>More contributions</strong></summary>
+<tr>
+<td align="center" width="140">
+<a href="https://github.com/optuna/optuna-integration/pull/277">
+<img src="https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png" height="48" alt="Optuna Integration"/>
+<br><strong>Optuna Integration</strong>
+<br><sub>BoTorch sampler</sub>
+</a>
+</td>
+<td>
+Added <code>qlogei_candidates_func</code> and <code>qlogei_parego_candidates_func</code> so the BoTorch sampler can use the numerically stable qLogEI and qLogNParEGO acquisition functions
 <br>
+<a href="https://github.com/optuna/optuna-integration/pull/277">#277</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
+</td>
+</tr>
 
-| Repo | Contribution | PR |
-|------|-------------|-----|
-| **DSPy** (25k stars) | Fixed streaming retry bug — zero rate-limit protection in `dspy.streamify()` + API docstrings | [#9460](https://github.com/stanfordnlp/dspy/pull/9460) · [#9458](https://github.com/stanfordnlp/dspy/pull/9458) |
-| **Arize Phoenix** (15k stars) | CLI `session-delete` command | [#12155](https://github.com/Arize-ai/phoenix/pull/12155) |
-| **CScout** (1k stars) | Converted 8,065 lines of XML docs to Markdown + HTML build pipeline | [#87](https://github.com/dspinellis/cscout/pull/87) |
+<tr>
+<td align="center" width="140">
+<a href="https://github.com/deepset-ai/haystack/pull/11053">
+<strong>Haystack</strong>
+<br><sub>25k stars</sub>
+</a>
+</td>
+<td>
+Documented the auto-variadic socket input ordering in <code>connect()</code>, clarifying how multiple connections into a variadic input are ordered
+<br>
+<a href="https://github.com/deepset-ai/haystack/pull/11053">#11053</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
+</td>
+</tr>
 
-</details>
+</table>
 
 <br>
 
