@@ -39,16 +39,17 @@ Active contributor across top-tier AI/ML repositories with **merged PRs in produ
 
 <tr>
 <td align="center" width="140">
-<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="48" height="48" alt="HuggingFace"/>
-<br><strong>Transformers</strong>
-<br><sub>158k stars</sub>
+<a href="https://github.com/kubeflow/katib/pull/2666">
+<img src="https://avatars.githubusercontent.com/u/33164907?s=200" width="48" height="48" alt="Kubeflow"/>
+<br><strong>Kubeflow Katib</strong>
+<br><sub>CNCF · 1.7k stars</sub>
+</a>
 </td>
 <td>
-Added <code>position_ids</code> to RoFormer, Bloom, MPT CausalLM models — flash attention compatibility
+Made the Optuna suggestion service fail loudly on unsupported parameter distributions (normal, log-normal) instead of silently producing wrong results
 <br>
-<a href="https://github.com/huggingface/transformers/pull/44705">#44705</a> ·
-<a href="https://github.com/huggingface/transformers/pull/44706">#44706</a> ·
-<a href="https://github.com/huggingface/transformers/pull/44707">#44707</a>
+<a href="https://github.com/kubeflow/katib/pull/2666">#2666</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
 
