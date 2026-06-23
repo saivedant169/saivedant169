@@ -26,6 +26,21 @@ Active contributor across top-tier AI/ML repositories with **merged PRs in produ
 <table>
 <tr>
 <td align="center" width="140">
+<a href="https://github.com/firecrawl/firecrawl/pull/3699">
+<img src="https://avatars.githubusercontent.com/u/135057108?s=200" width="48" height="48" alt="Firecrawl"/>
+<br><strong>Firecrawl</strong>
+<br><sub>138k stars</sub>
+</a>
+</td>
+<td>
+Fixed self-hosted response URLs pointing at the internal bind address behind a proxy by switching to Express <code>req.host</code>
+<br>
+<a href="https://github.com/firecrawl/firecrawl/pull/3699">#3699</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
+</td>
+</tr>
+<tr>
+<td align="center" width="140">
 <a href="https://github.com/pytorch/pytorch/pull/177455">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="48" height="48" alt="PyTorch"/>
 <br><strong>PyTorch</strong>
