@@ -114,6 +114,22 @@ Made the Optuna suggestion service fail loudly on unsupported parameter distribu
 
 <tr>
 <td align="center" width="140">
+<a href="https://github.com/ray-project/ray/pull/63914">
+<img src="https://avatars.githubusercontent.com/u/22125274?s=200" width="48" height="48" alt="Ray"/>
+<br><strong>Ray Tune</strong>
+<br><sub>43k stars</sub>
+</a>
+</td>
+<td>
+Made BayesOptSearch float-hash precision configurable so repeated near-duplicate trials are detected at a chosen precision
+<br>
+<a href="https://github.com/ray-project/ray/pull/63914">#63914</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
+</td>
+</tr>
+
+<tr>
+<td align="center" width="140">
 <a href="https://github.com/openlit/openlit/pull/1060">
 <img src="https://raw.githubusercontent.com/openlit/openlit/main/src/client/public/images/logo.png" height="48" alt="OpenLIT"/>
 <br><strong>OpenLIT</strong>
