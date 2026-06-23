@@ -39,6 +39,7 @@ Fixed self-hosted response URLs pointing at the internal bind address behind a p
 <img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
 </td>
 </tr>
+<!-- hidden until merged
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/pytorch/pytorch/pull/177455">
@@ -51,6 +52,7 @@ Fixed self-hosted response URLs pointing at the internal bind address behind a p
 <code>nn.SwiGLU</code> activation function — used in LLaMA, Mistral, Gemma, and every modern LLM
 </td>
 </tr>
+-->
 
 <tr>
 <td align="center" width="140">
@@ -127,6 +129,7 @@ Fixed O(n^2) prompt explosion in <code>format_content()</code> and removed hardc
 </td>
 </tr>
 
+<!-- hidden until merged
 <tr>
 <td align="center" width="140">
 <a href="https://github.com/google/python-fire/pull/654">
@@ -139,6 +142,7 @@ Fixed O(n^2) prompt explosion in <code>format_content()</code> and removed hardc
 Improved CLI error handling -- catches TypeError from missing arguments, shows user-friendly messages
 </td>
 </tr>
+-->
 
 <tr>
 <td align="center" width="140">
