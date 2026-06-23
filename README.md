@@ -196,18 +196,6 @@ Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable ca
 
 </table>
 
-<details>
-<summary><strong>More contributions</strong></summary>
-<br>
-
-| Repo | Contribution | PR |
-|------|-------------|-----|
-| **DSPy** (25k stars) | Fixed streaming retry bug — zero rate-limit protection in `dspy.streamify()` + API docstrings | [#9460](https://github.com/stanfordnlp/dspy/pull/9460) · [#9458](https://github.com/stanfordnlp/dspy/pull/9458) |
-| **Arize Phoenix** (15k stars) | CLI `session-delete` command | [#12155](https://github.com/Arize-ai/phoenix/pull/12155) |
-| **CScout** (1k stars) | Converted 8,065 lines of XML docs to Markdown + HTML build pipeline | [#87](https://github.com/dspinellis/cscout/pull/87) |
-
-</details>
-
 <br>
 
 ## Tech Stack
