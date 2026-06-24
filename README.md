@@ -15,7 +15,7 @@
 
 ## About Me
 
-I'm **Saivedant Hava**, an AI/ML engineer who contributes to the open-source tools that power modern AI. I work on LLM frameworks, ML libraries, and AI infrastructure. Fixing real bugs, shipping features, improving code quality in production codebases.
+I'm **Saivedant Hava**, an AI/ML engineer. I work on the open-source tools the industry quietly depends on, hyperparameter optimization, LLM infrastructure, and model serving, usually by finding the bug everyone assumed someone else already caught. I read the code people trust, find what it swore wasn't there, and open a PR with a test that proves it. Turns out "used by thousands of developers" and "actually tested" are not the same thing.
 
 <br>
 
