@@ -49,7 +49,7 @@ Fixed self-hosted response URLs pointing at the internal bind address behind a p
 </a>
 </td>
 <td>
-<code>nn.SwiGLU</code> activation function — used in LLaMA, Mistral, Gemma, and every modern LLM
+<code>nn.SwiGLU</code> activation function, used in LLaMA, Mistral, Gemma, and every modern LLM
 </td>
 </tr>
 -->
@@ -185,7 +185,7 @@ Improved CLI error handling -- catches TypeError from missing arguments, shows u
 </a>
 </td>
 <td>
-Fixed OTel context leak in LangChain instrumentation — detach existing <code>SpanHolder</code> token before overwrite in <code>_create_llm_span</code>, preventing orphaned contexts on retries
+Fixed OTel context leak in LangChain instrumentation by detaching the existing <code>SpanHolder</code> token before overwrite in <code>_create_llm_span</code>, preventing orphaned contexts on retries
 <br>
 <a href="https://github.com/traceloop/openllmetry/pull/3958">#3958</a>
 <img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
