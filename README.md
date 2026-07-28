@@ -72,6 +72,22 @@ Made the Optuna suggestion service fail loudly on unsupported parameter distribu
 
 <tr>
 <td align="center" width="140">
+<a href="https://github.com/googleapis/mcp-toolbox/pull/3060">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="48" height="48" alt="Google"/>
+<br><strong>MCP Toolbox</strong>
+<br><sub>16k stars</sub>
+</a>
+</td>
+<td>
+Added a <code>/healthz</code> endpoint to Google's MCP server for databases — a dedicated liveness and readiness probe for Kubernetes, Docker, and Cloud Run health checks
+<br>
+<a href="https://github.com/googleapis/mcp-toolbox/pull/3060">#3060</a>
+<img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
+</td>
+</tr>
+
+<tr>
+<td align="center" width="140">
 <a href="https://github.com/optuna/optuna">
 <img src="https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png" height="48" alt="Optuna"/>
 <br><strong>Optuna</strong>
