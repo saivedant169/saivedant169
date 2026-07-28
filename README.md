@@ -79,7 +79,7 @@ Made the Optuna suggestion service fail loudly on unsupported parameter distribu
 </a>
 </td>
 <td>
-Added a <code>/healthz</code> endpoint to Google's MCP server for databases — a dedicated liveness and readiness probe for Kubernetes, Docker, and Cloud Run health checks
+Added a <code>/healthz</code> endpoint returning <code>200</code> with a <code>{"status":"ok"}</code> body, exempt from the host check so container liveness probes from the pod IP or localhost aren't rejected by a strict AllowedHosts setting
 <br>
 <a href="https://github.com/googleapis/mcp-toolbox/pull/3060">#3060</a>
 <img src="https://img.shields.io/badge/MERGED-8957e5?style=flat-square" alt="merged"/>
