@@ -275,7 +275,7 @@ Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable ca
 <div align="center">
 
 <img src="https://readme-stats-theta-bay.vercel.app/api?username=saivedant169&show_icons=true&theme=great-gatsby&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="stats"/>
-<img src="https://streak-stats.demolab.com/?user=saivedant169&theme=great-gatsby&hide_border=true" height="165" alt="streak"/>
+<img src="https://readme-stats-theta-bay.vercel.app/api/top-langs/?username=saivedant169&layout=compact&theme=great-gatsby&hide_border=true&hide=jupyter%20notebook,html,css&langs_count=6" height="165" alt="languages"/>
 
 <br>
 
