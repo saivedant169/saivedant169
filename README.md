@@ -268,10 +268,6 @@ Ruff rule rollouts across the codebase (Bugbear caught a lambda loop variable ca
 <img src="https://readme-stats-theta-bay.vercel.app/api?username=saivedant169&show_icons=true&theme=great-gatsby&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="stats"/>
 <img src="./profile/streak.svg" height="165" alt="streak"/>
 
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=saivedant169&bg_color=000000&title_color=ffa726&color=ffd95b&line=ffa726&point=ffb74d&area_color=ffa726&hide_border=true&area=true" width="95%" alt="activity"/>
-
 </div>
 
 <br>
